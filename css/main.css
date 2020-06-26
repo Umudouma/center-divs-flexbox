@@ -97,8 +97,9 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #39453e;
   height: 100%;
+
 }
 
 body {
@@ -110,9 +111,10 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  align-content: center;
   display:flex; /*Display flex - align all items on the main axis*/
   justify-content: space-between;/*space items apart on the main axis*/
+
 }
 
 .div-1, .div-2, .div-3 {
@@ -122,11 +124,18 @@ body {
   display: flex; /*turn each content div into a flex container*/
   justify-content: center; /* centralize each div item in the container */
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: #39453e;
+  height: 150px;
   width:30%;/*give each item each spacing width*/
+
 }
+
+.div-1,.div-2{
+  border-right: 1px solid #808080;
+}
+
+
 
 
 
